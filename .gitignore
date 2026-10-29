@@ -1,0 +1,25 @@
+# Downloaded data / generated artifacts (large, regenerable)
+dataset/images/
+dataset/mymoviedb_clean.csv
+dataset/download_report.json
+models/*.keras
+models/classes.json
+models/training_history.json
+models/evaluation_report.json
+reports/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large dataset archive
+meta.v1.zip
